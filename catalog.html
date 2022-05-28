@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+  </head>
+  <body>
+  <header class="page-header">
+    <a href="#index.html"><img src="logo.png" alt="Седона_логотип"></a>
+    <nav class="navigation">
+      <ul class="navigation-list">
+      <li class="navigation-item">
+        <a class="navigation-link" href="main.html">Главная</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="about.html">О Седоне</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="catalog.html">Гостиницы</a>
+      </li>
+      </ul>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#"><span class="visually-hidden">Избранные</span></a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Хочу сюда</a>
+        </li>
+        </ul>
+    </nav>
+    </header>
+    <main class="main-inner">
+        <header class="inner-heder">
+            <h1 class="inner-heder-title">Гостиницы Седоны</h1>
+        </header>
+            <ul  class="breadcrambs">
+                <li class="breadcrams-item">
+                    <a class="breadcrams-link" href="index.html"><img src="#" alt="Главная"></a>
+                </li>
+                <li class="breadcrams-item">
+                    <a class="breadcrams-link" href="catalog.html">Гостиницы</a>
+                </li>
+            </ul>
+<section class="catalog-products">
+    <h2 class="visually-hidden">Поиск гостиниц с фильтрами</h2>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <Fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура</legend>
+            <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+            <label class="control">
+                <input class="control-input" type="checkbox" name="Бассейн" checked>Бассейн
+            </label>
+        </li>
+        <li class="catalog-filter-item">
+            <label class="control">
+                <input class="control-input" type="checkbox" name="Парковка" checked>Парковка
+            </label>
+        </li>
+        <li class="catalog-filter-item">
+            <label class="control">
+                <input class="control-input" type="checkbox" name="Wi-Fi">Wi-Fi
+            </label>
+        </li>
+        </ul>
+        </Fieldset>
+        </form>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <Fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура</legend>
+            <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+            <label class="control">
+                <input class="control-input" type="radio" name="product-group" checked>Гостиница
+            </label>
+        </li>
+        <li class="catalog-filter-item">
+            <label class="control">
+                <input class="control-input" type="radio" name="product-group">Мотель
+            </label>
+        </li>
+        <li class="catalog-filter-item">
+            <label class="control">
+                <input class="control-input" type="radio" name="product-group">Апартаменты
+            </label>
+        </li>
+        </ul>
+        </Fieldset>
+        <button class="button" type="submit">Применить</button>
+    </form>
+
+
+</section>
+       
+    </main>
+      
+  </body>
+  </html>
