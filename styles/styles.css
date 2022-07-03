@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2");
+    src: url("2059873-sedona-34/fonts/ptsans-400.woff2");
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/ptsans-700.woff2");
+    src: url("2059873-sedona-34/fonts/ptsans-700.woff2");
     font-display: swap;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .main-index {
-    background-image: url("images/banner/index-background.jpg");
+    background-image: url("2059873-sedona-34/images/banner/index-background.jpg");
     color: #000000;
     background-color: #ffffff;
     background-size: 100%;
@@ -49,6 +49,7 @@ body {
     line-height: 36px;
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .advantages-heading {
@@ -58,16 +59,17 @@ body {
 }
 
 .advantages-numbered-item {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
-    background: #82B3D3;
+    background: #ffffff;
 }
 
-.advantages-numbered-sabtitle {
+.advantages-numbered-title {
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
-    background: #82B3D3;
+    background: inherit;
+    text-transform: uppercase;
 }
 
 .advantages-item {
@@ -75,10 +77,20 @@ body {
     background-color: #ffffff;
 }
 
-.advantages-subtitle {
+.advantages-item-title {
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages-item-number{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
 }
 
 .hotel-search {
@@ -91,6 +103,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .hotel-search-link {
@@ -108,13 +121,22 @@ body {
     font-weight: 400;
     text-align: center;
     color: #ffffff;
-    background-image: url("images/background.jpg");
+    background-image: url("/2059873-sedona-34/images/background.jpg");
    }
 
 .user-mail-title {
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button-newsletter {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;  
 }
 
 .social-list {
