@@ -225,6 +225,13 @@ body {
     color: inherit;
 }
 
+.inner-heder{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto; 
+}
+
 .inner-heder-title {
     font-size: 60px;
     line-height: 78px;
@@ -252,6 +259,12 @@ body {
     color: #000000;
 }
 
+.catalog-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
 .catalog-price-title {
     font-size: 20px;
     line-height: 26px;
@@ -288,6 +301,14 @@ body {
     line-height: 36px;
     font-weight: 700;
 }
+
+.hotel-card-item {
+    display: flex;
+    width: 340px;
+    margin: 18px;
+    padding: 0 auto;
+}
+
 
 .hotel-card-link {
     text-decoration: none;
