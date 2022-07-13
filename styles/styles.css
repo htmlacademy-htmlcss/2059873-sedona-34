@@ -39,8 +39,6 @@ body {
 
 .navigation {
     display: flex;
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .navigation-list {
@@ -111,7 +109,7 @@ body {
 }
 
 .advantages-item {
-    width: 400;
+    width: 400px;
     color: #000000;
     background-color: #ffffff;
 }
@@ -162,9 +160,6 @@ body {
 }
 
 .user-mail {
-    margin: 0;
-    padding: 0;
-    width: 1200;
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
@@ -207,8 +202,7 @@ body {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 0 auto;
-}
+    }
 
 .social-phone {
     font-size: 40px;
@@ -225,11 +219,11 @@ body {
     color: inherit;
 }
 
-.inner-heder{
+.inner-heder {
     display: flex;
     width: 1200px;
     margin: 0 auto;
-    padding: 0 auto; 
+    padding: 0 auto;
 }
 
 .inner-heder-title {
@@ -265,6 +259,7 @@ body {
     margin: 0 auto;
     padding: 0 auto;
 }
+
 .catalog-price-title {
     font-size: 20px;
     line-height: 26px;
